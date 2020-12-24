@@ -163,19 +163,9 @@ var playerInfo = {
     this.attack = 10;
   }, // comma!
   refillHealth: function() {
-<<<<<<< HEAD
-      this.health += 20;
-      this.money -= 7;
-    } 
-    else {
-      window.alert("You don't have enough money!");
-    }
-  },
-=======
     this.health += 20;
     this.money -= 7;
   }, // comma!
->>>>>>> develop
   upgradeAttack: function() {
     this.attack += 6;
     this.money -= 7;
